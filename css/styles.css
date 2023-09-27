@@ -684,6 +684,7 @@ button {
     max-width: 288px;
     margin: 0 auto;
   }
+
 .support-list-item:not(:last-child) {
    margin-bottom: 48px;
  }
