@@ -24,23 +24,13 @@
              <button
           class="menu-toggle js-open-menu"
           aria-expanded="false"
-          aria-controls="mobile-menu"
-        >
-          <svg
+          aria-controls="mobile-menu">
+          <svg class="mobile-menu-icon"
             width="24"
-            height="24"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-              clip-rule="evenodd"
-            ></path>
+            height="24">
+           <use href="./images/icons.svg#icon-hamburger"></use>
           </svg>
         </button>
-
               <ul class="header-menu list">
                   <li class="header-menu-item">
                     <a class="header-menu-link current link" href="./index.html">Studio</a></li>
@@ -616,11 +606,62 @@
             <use href="./images/icons.svg#icon-cross"></use>
             </svg>  
           </button>
-          <ul class="mobile-menu">
-            <li><a href="" class="link">Studio</a></li>
-            <li><a href="" class="link">Portfolio</a></li>
-            <li><a href="" class="link">Contacts</a></li>
+          <ul class="mobile-menu list">
+            <li class="mobile-menu-items">
+              <a class="mobile-menu-link link" href="">Studio</a>
+            </li>
+            <li class="mobile-menu-items">
+              <a class="mobile-menu-link link" href="">Portfolio</a>
+            </li>
+            <li class="mobile-menu-items">
+              <a class="mobile-menu-link link" href="">Contacts</a>
+            </li>
           </ul>
+          <ul class="mobile-menu-adress list">
+            <li class="mobile-adress-link">
+            <a class="mobile-adress-menu link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="mobile-adress-link">
+            <a class="mobile-adress-menu link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        </ul>
+          <ul class="mobile-menu-social footer-social list">
+            <li class="footer-social-icons">
+               <a class="footer-icons-list" href="#">
+                 <svg class="footer-icons-box"
+                  width="24"
+                  height="24">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                 </svg>
+               </a>
+            </li>
+            <li class="footer-social-icons">
+               <a class="footer-icons-list" href="#">
+                 <svg class="footer-icons-box"
+                  width="24"
+                  height="24">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                 </svg>
+               </a>
+            </li>
+            <li class="footer-social-icons">
+               <a class="footer-icons-list" href="#">
+                 <svg class="footer-icons-box"
+                  width="24"
+                  height="24">
+                 <use href="./images/icons.svg#icon-facebook-1"></use>
+                 </svg>
+               </a>  
+            </li>
+            <li class="footer-social-icons">
+               <a class="footer-icons-list" href="#">
+                 <svg class="footer-icons-box"
+                  width="24"
+                  height="24">
+                 <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+               </a>   
+            </li>  
+          </ul>
+
         </div>
         <script
       defer
